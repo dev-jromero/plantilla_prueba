@@ -1,0 +1,145 @@
+/*
+@autor: jonathan romero
+@descripcion: esto son los estilos de la pagina principal
+*/
+body{
+    margin:0;
+    padding: 0;
+    
+}
+header{
+    background-image: url('../image/header.jpg');
+    height:100vh;
+    background-size:cover;
+    background-position: center;
+}
+#header-nav{
+    width:100%;
+    height:180px;
+    background-color: #0006;
+    
+    
+}
+.logo{
+    width:150px;
+    height:150px;
+    
+    margin-bottom:20px;
+    padding: 15px;
+    margin-left:25px; 
+}
+.logo img{
+    width:150px;
+    height: 125px;
+    
+}
+.header-menu{
+    width:400px;
+    height: 150px;
+    padding: 15px;
+    position: absolute;
+    top: 0px;
+    left: 450px; 
+}
+
+.header-menu ul{
+    list-style: none;
+}
+.header-menu ul li{
+    display:inline-block;
+    
+    margin-left: 10px;
+    margin-top:40px;
+    font-family: 'Fahkwang', sans-serif;
+    text-transform: uppercase;
+    
+}
+.header-menu ul li a{
+    display:inline-block;
+    padding: 5px;
+    text-decoration: none;
+    color:white;
+}
+.header-menu ul li a:hover{
+    color: black;
+}
+.img-items{
+    width: 310px;
+    height: 150px;
+    
+    position: absolute;
+    top:0px;
+    right:20px;
+    padding: 15px;
+}
+
+.menu-social img{
+    width:30px;
+    float:left;
+}
+.menu-social ul{
+    list-style: none;
+}
+.menu-social ul li{
+    display: inline-block;
+    width:30px;
+    float: left;
+    margin-left: 2px;
+    margin-top:40px;
+    
+}
+.shop{
+    float: right;
+    list-style: none;
+    margin-top:25px;
+    margin-right:25px;
+}
+.shop ul li{
+    display: inline-block;
+    color: white;
+}
+.col-1{
+    border:1.5px solid white;
+    padding: 5px;
+}
+.col-2{
+    border:1.5px solid white;
+    padding: 5px;
+    position: relative;
+    right: 6px;
+}
+.contenido h1, h2, h3{
+    transition: 0.8s all;
+}
+.contenido h2{
+    
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Fahkwang', sans-serif;
+    text-transform: uppercase;
+    
+}
+.contenido h1{
+   
+    font-size: 70px;
+    text-align: center;
+    color: white;
+    font-family: 'Fahkwang', sans-serif;
+    text-transform: uppercase;
+}
+.contenido h3{
+    font-size: 15px;
+    text-align:center;
+    color:white;
+    font-family: 'Fahkwang', sans-serif;
+    text-transform:uppercase;
+}
+.contenido img{
+    position: absolute;
+    left: 620px;
+    bottom:30px;
+}
+
+
+
