@@ -47,7 +47,6 @@ header{
 }
 .header-menu ul li{
     display:inline-block;
-    
     margin-left: 10px;
     margin-top:40px;
     font-family: 'Fahkwang', sans-serif;
@@ -137,9 +136,222 @@ header{
 }
 .contenido img{
     position: absolute;
-    left: 620px;
+    left: 610px;
     bottom:30px;
 }
+#main-body{
+    background-color: #ddd;
+    padding: 80px 0;
+    height: auto;
+}
+.section-img{
+    width:1100px;
+    margin: 0 auto;
+    
+     
+}
+.section-img .image-shape{
+    float:left;
+    margin-left: 10px;
+}
+.section-2{
+    width:750px;
+    margin: 0 auto;
+    
+}
+.section-2 .image-shape{
+    float:left;
+    margin-left: 10px;
+}
+.section-3{
+    width:1100px;
+    margin: 0 auto;
+    
+}
+.section-3 .image-shape{
+    float:center;
+    
+}
 
-
-
+/*
+.hexagon{
+    width: 319px;
+    height: 185px;
+    background: red;
+    position: relative;
+    top: 50%;
+    left:20%;
+    transform: translate(-50%,-50%);
+    
+}
+.hexagon:before,
+.hexagon:after{
+    content: '';
+    width:100%;
+    height:100%;
+    background: red;
+    position: absolute;
+    
+}
+.hexagon:before{
+    transform: rotate(60deg);
+}
+.hexagon:after{
+    transform: rotate(-60deg);
+}
+.hexagon,
+.hexagon:before,
+.hexagon:after{
+    background-image: url('../image/athletes.jpg'); 
+    visibility:visible;
+}
+*/
+.image-shape, .image-shape div{
+    margin: 0 auto;
+    transform-origin: 50% 50%;
+    overflow: hidden;
+    width: 350px;
+    height:350px;
+    
+}
+.image-shape, .image-shape div{
+    width: 350px;
+    height:350px;
+}
+.image-shape{
+    transform: rotate(45deg);
+}
+.shape1{
+    background-image: url('../image/athletes.jpg');
+    background-position: center;
+}
+.shape1{
+    transform: rotate(-45deg);
+}
+.text1 h1{
+    color: white;
+    text-align:center;
+    position: absolute;
+    top:170px;
+    left:76px; 
+    font-size:45px;
+    font-family: 'Fahkwang', sans-serif;
+    text-transform:uppercase;
+}
+.text1 a{
+    position: absolute;
+    border: 3px solid white;
+    background-color: transparent;
+    color: white;
+    font-size:20px;
+    top:280px;
+    left:115px;
+    font-family: 'Fahkwang', sans-serif;
+    text-transform:uppercase;
+    text-decoration: none;
+    padding:5px; 
+}
+.text2 h1{
+    color: white;
+    text-align:center;
+    position: absolute;
+    top:170px;
+    left:93px; 
+    font-size:45px;
+    font-family: 'Fahkwang', sans-serif;
+    text-transform:uppercase;
+}
+.text2 a{
+    position: absolute;
+    border: 3px solid white;
+    background-color: transparent;
+    color: white;
+    font-size:20px;
+    top:280px;
+    left:115px;
+    font-family: 'Fahkwang', sans-serif;
+    text-transform:uppercase;
+    text-decoration: none;
+    padding:5px; 
+}
+.text3 h1{
+    color: white;
+    text-align:center;
+    position: absolute;
+    top:170px;
+    left:52px; 
+    font-size:45px;
+    font-family: 'Fahkwang', sans-serif;
+    text-transform:uppercase;
+}
+.text3 a{
+    position: absolute;
+    border: 3px solid white;
+    background-color: transparent;
+    color: white;
+    font-size:20px;
+    top:280px;
+    left:115px;
+    font-family: 'Fahkwang', sans-serif;
+    text-transform:uppercase;
+    text-decoration: none;
+    padding:5px; 
+}
+.text4 h1{
+    color: white;
+    text-align:center;
+    position: absolute;
+    top:170px;
+    left:19px; 
+    font-size:45px;
+    font-family: 'Fahkwang', sans-serif;
+    text-transform:uppercase;
+}
+.text4 a{
+    position: absolute;
+    border: 3px solid white;
+    background-color: transparent;
+    color: white;
+    font-size:20px;
+    top:280px;
+    left:115px;
+    font-family: 'Fahkwang', sans-serif;
+    text-transform:uppercase;
+    text-decoration: none;
+    padding:5px; 
+}
+.shape2{
+    background-image: url('../image/shop.jpg');
+    background-position: center;
+}
+.shape2{
+    transform: rotate(-45deg);
+}
+.shape3{
+    background-image: url('../image/adventures.jpg');
+    background-position: center;
+}
+.shape3{
+    transform: rotate(-45deg);
+}
+.shape4{
+    background-image: url('../image/technology.jpg');
+    background-position: center;
+}
+.shape4{
+    transform: rotate(-45deg);
+}
+.shape5{
+    background-image: url('../image/packing.jpg');
+    background-position: center;
+}
+.shape5{
+    transform: rotate(-45deg);
+}
+.shape6{
+    background-image: url('../image/header.jpg');
+    background-position: center;
+}
+.shape6{
+    transform: rotate(-45deg);
+}
